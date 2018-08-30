@@ -6,7 +6,9 @@
       "nP": {
         "name": "Enuma Elish (The Star of Creation that Split Heaven and Earth)",
         "cardType": "Buster",
-        "desc": "Deals damage to all enemies. (+) Increase own NP damage by 30% for 1 turn. (Activates first)."
+        "desc": "Deals damage to all enemies. (+) (Activates first) Increase own NP damage by 30% for 1 turn.",
+        "npLevelEffect": "Damage +",
+        "npChargeEffect": "Extra Damage +"
       },
       "activeSkill": [
         "Increases party's attack for 3 turns.",
@@ -29,7 +31,9 @@
       "nP": {
         "name": "The Dynamics of an Asteroid (The Ultimate Crime)",
         "cardType": "Buster",
-        "desc": "Deals damage to one enemy. Reduces their defense for 3 turns. (Activates first)"
+        "desc": "Deals damage to one enemy. Reduces their defense for 3 turns. (Activates first)",
+        "npLevelEffect": "Damage +",
+        "npChargeEffect": "Defense -"
       },
       "activeSkill": [
         "Ignores Invincibility for 1 turn. Increases own critical star absorption for 1 turn.",
@@ -51,7 +55,9 @@
       "nP": {
         "name": "Mumyou Sandan-Zuki (Lightless, Three-Stage Thrust)",
         "cardType": "Buster",
-        "desc": "Deals damage to one enemy. Reduces their defense for 3 turns. (Activates first)"
+        "desc": "Deals damage to one enemy. (Activates first) Reduces their defense for 3 turns.",
+        "npLevelEffect": "Damage +",
+        "npChargeEffect": "Defense -"
       },
       "activeSkill": [
         "Increases own Quick performance for 1 turn.",
@@ -73,7 +79,9 @@
       "nP": {
         "name": "Bolverk Gram (Heaven's Wheel of Destruction)",
         "cardType": "Buster",
-        "desc": "Deals damage to one enemy. Deals extra damage to Dragon enemies."
+        "desc": "Deals damage to one enemy. Deals extra damage to Dragon enemies.",
+        "npLevelEffect": "Damage +",
+        "npChargeEffect": "Extra Damage +"
       },
       "activeSkill": [
         "Increases own critical damage for 3 attacks, 3 turns.",
@@ -96,7 +104,9 @@
       "nP": {
         "name": "Brynhildr Romantia (Until Death Divide the Two Apart)",
         "cardType": "Buster",
-        "desc": "Deals damage to one enemy. Increases party's critical star generation rate by 30%->(+)50% for 3 turns. Deals extra damage to Brynhildr's Beloved enemies."
+        "desc": "Deals damage to one enemy. Increases party's critical star generation rate by 30%->(+)50% for 3 turns. Deals extra damage to Brynhildr's Beloved enemies.",
+        "npLevelEffect": "Damage +",
+        "npChargeEffect": "Extra Damage +"
       },
       "activeSkill": [
         "Increases own Buster performance for 1 turn. Increases own NP damage for 1 turn.",
@@ -119,7 +129,9 @@
       "nP": {
         "name": "Alf Layla wa-Layla (One Thousand and One Nights)",
         "cardType": "Arts",
-        "desc": "Increases own NP damage by 20% for 1 turn (Activates first). Deals damage to all enemies. Deals extra damage to King enemies. (+) 500% Chance to reduce their debuff resistance by 50% for 1 time, 3 turns. "
+        "desc": "Increases own NP damage by 20% for 1 turn (Activates first). Deals damage to all enemies. Deals extra damage to King enemies. (+) 500% Chance to reduce their debuff resistance by 50% for 1 time, 3 turns. ",
+        "npLevelEffect": "Damage +",
+        "npChargeEffect": "Extra Damage +"
       },
       "activeSkill": [
         "Chance to reduce one enemy's NP gauge by 1. Increases own Arts performance for 1 turn.",
@@ -132,6 +144,31 @@
       "bondCE": {
         "name": "King Shahryar's Chambers",
         "effect": "Increases own debuff resistance by 100%."
+      }
+    },
+    {
+      "name": "Osakabehime",
+      "class": "Assassin",
+      "nP": {
+        "name": "Hakuro Jyou no Hyakki Hachitendou-sama (Lord Hachitendo of the White Egret Castle's Hundred Demons)",
+        "cardType": "Quick",
+        "desc": "Increases party's Max HP for 3 turns. Defenseup Increases party's defense by 20% for 3 turns. Increases party's Quick performance for 3 turns.",
+        "npLevelEffect": "Max HP +",
+        "npChargeEffect": "Quick +"
+      },
+      "activeSkill": [
+        "Increases own defense for 3 turns. Further increases own defense by 30% for 1 turn. Increases own debuff resistance for 3 turns.",
+        "Charges one ally's NP gauge. Increases their critical star generation rate for 3 turns.",
+        "Reduces one enemy's defense for 1 turn. Removes their buffs."
+      ],
+      "passiveSkill": [
+        "Increases own Arts performance by 11%.", 
+        "Increases own critical star generation rate by 8%. [Demerit] Reduces own debuff resistance by 10%.",
+        "Increases own damage by 150."
+      ],
+      "bondCE": {
+        "name": "Princess' Origami",
+        "effect": "Increases party's NP generation rate by 15% while she is on the field."
       }
     }
   ]

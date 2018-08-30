@@ -1,0 +1,138 @@
+{ 
+  "servant": [
+    {
+      "name": "Gilgamesh",
+      "class": "Archer",
+      "nP": {
+        "name": "Enuma Elish (The Star of Creation that Split Heaven and Earth)",
+        "cardType": "Buster",
+        "desc": "Deals damage to all enemies. (+) Increase own NP damage by 30% for 1 turn. (Activates first)."
+      },
+      "activeSkill": [
+        "Increases party's attack for 3 turns.",
+        "Increases own NP generation rate for 3 turns.",
+        "Increases own critical star absorption for 3 turns. (+) Charges own NP gauge."
+      ],
+      "passiveSkill": [
+        "Increases own critical damage by 11%.",
+        "Increases own debuff resistance by 10%.",
+        "Increases own damage by 175."
+      ],
+      "bondCE": {
+        "name": "Key of the King's Law",
+        "effect": "Increases own NP damage by 30%. 30% Chance to increase own critical damage by 10% for 3 turns when attacking."
+      }
+    },
+    {
+      "name": "James Moriarty",
+      "class": "Archer",
+      "nP": {
+        "name": "The Dynamics of an Asteroid (The Ultimate Crime)",
+        "cardType": "Buster",
+        "desc": "Deals damage to one enemy. Reduces their defense for 3 turns. (Activates first)"
+      },
+      "activeSkill": [
+        "Ignores Invincibility for 1 turn. Increases own critical star absorption for 1 turn.",
+        "Charges own NP gauge. Increases own NP damage by 20% for 3 turns. [Demerit] Consumes 10 critical stars.",
+        "Increases party's attack for 3 turns. Further increases the attack of allies with Evil Alignment except himself for 3 turns."
+      ],
+      "passiveSkill": [
+        "Increases own debuff resistance by 12.5%.",
+        "Increases own critical damage by 11%."
+      ],
+      "bondCE": {
+        "name": "The Dynamics of an Asteroid",
+        "effect": "Increases the NP damage of Evil allies by 25% when he is on the field."
+      }
+    },
+    {
+      "name": "Okita Souji",
+      "class": "Saber",
+      "nP": {
+        "name": "Mumyou Sandan-Zuki (Lightless, Three-Stage Thrust)",
+        "cardType": "Buster",
+        "desc": "Deals damage to one enemy. Reduces their defense for 3 turns. (Activates first)"
+      },
+      "activeSkill": [
+        "Increases own Quick performance for 1 turn.",
+        "Increases own critical star absorption for 1 turn.",
+        "Grants self Evasion for 1 turn. Increases own critical damage for 3 turns."
+      ],
+      "passiveSkill": [
+        "Increases own debuff resistance by 10%.",
+        "Increases own Quick performance by 2%."
+      ],
+      "bondCE": {
+        "name": "The Dynamics of an Asteroid",
+        "effect": "Increases the NP damage of Evil allies by 25% when he is on the field."
+      }
+    },
+    {
+      "name": "Sigurd",
+      "class": "Saber",
+      "nP": {
+        "name": "Bolverk Gram (Heaven's Wheel of Destruction)",
+        "cardType": "Buster",
+        "desc": "Deals damage to one enemy. Deals extra damage to Dragon enemies."
+      },
+      "activeSkill": [
+        "Increases own critical damage for 3 attacks, 3 turns.",
+        "Increases own Buster performance for 1 turn. Grants self Guts status for 1 time, 3 turns. (Revived with 1000 HP.)",
+        "Increases one ally's critical star generation rate for 1 turn. Grants them Debuff Immunity for 1 turn."
+      ],
+      "passiveSkill": [
+        "Increases own debuff resistance by 20%.",
+        "Increases own Quick performance by 10%.",
+        "Increases own damage by 175."
+      ],
+      "bondCE": {
+        "name": "True - Congealed Wisdom",
+        "effect": "Increases party's Buster performance by 10% and critical damage by 15% while he is on the field."
+      }
+    },
+    {
+      "name": "Brynhildr",
+      "class": "Lancer",
+      "nP": {
+        "name": "Brynhildr Romantia (Until Death Divide the Two Apart)",
+        "cardType": "Buster",
+        "desc": "Deals damage to one enemy. Increases party's critical star generation rate by 30%->(+)50% for 3 turns. Deals extra damage to Brynhildr's Beloved enemies."
+      },
+      "activeSkill": [
+        "Increases own Buster performance for 1 turn. Increases own NP damage for 1 turn.",
+        "Reduces one enemy's critical attack chance for 3 turns. Reduces their NP damage for 1 turn.",
+        "Increases one ally's critical star absorption for 3 turns. (+) Increases their critical damage for 3 turns. Recovers their HP."
+      ],
+      "passiveSkill": [
+        "Increases own debuff resistance by 17,5%.",
+        "Increases own Quick performance by 10%.",
+        "Increases own damage by 105."
+      ],
+      "bondCE": {
+        "name": "Imperishable Flames",
+        "effect": "Increases party's Buster performance and NP generation rate by 10% while she is on the field."
+      }
+    },
+    {
+      "name": "Scheherazade",
+      "class": "Caster",
+      "nP": {
+        "name": "Alf Layla wa-Layla (One Thousand and One Nights)",
+        "cardType": "Arts",
+        "desc": "Increases own NP damage by 20% for 1 turn (Activates first). Deals damage to all enemies. Deals extra damage to King enemies. (+) 500% Chance to reduce their debuff resistance by 50% for 1 time, 3 turns. "
+      },
+      "activeSkill": [
+        "Chance to reduce one enemy's NP gauge by 1. Increases own Arts performance for 1 turn.",
+        "Chance to Charm all Male enemies for 1 turn. Increases own defense for 2 turns.",
+        "Grants self Guts status for 1 time, 5 turns. Reduces one King enemy's attack for 1 turn. (+) Grants party Guts status except herself for 1 time, 2 turns. (Revives with 500 HP.)"
+      ],
+      "passiveSkill": [
+        "Increases own Arts performance by 11.5%."
+      ],
+      "bondCE": {
+        "name": "King Shahryar's Chambers",
+        "effect": "Increases own debuff resistance by 100%."
+      }
+    }
+  ]
+}

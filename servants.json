@@ -2,7 +2,7 @@
   "servant": [
     {
       "name": "Gilgamesh",
-      "class": "Archer",
+      "servantClass": "Archer",
       "nP": {
         "name": "Enuma Elish (The Star of Creation that Split Heaven and Earth)",
         "cardType": "Buster",
@@ -27,7 +27,7 @@
     },
     {
       "name": "James Moriarty",
-      "class": "Archer",
+      "servantClass": "Archer",
       "nP": {
         "name": "The Dynamics of an Asteroid (The Ultimate Crime)",
         "cardType": "Buster",
@@ -51,10 +51,10 @@
     },
     {
       "name": "Okita Souji",
-      "class": "Saber",
+      "servantClass": "Saber",
       "nP": {
         "name": "Mumyou Sandan-Zuki (Lightless, Three-Stage Thrust)",
-        "cardType": "Buster",
+        "cardType": "Quick",
         "desc": "Deals damage to one enemy. (Activates first) Reduces their defense for 3 turns.",
         "npLevelEffect": "Damage +",
         "npChargeEffect": "Defense -"
@@ -69,13 +69,13 @@
         "Increases own Quick performance by 2%."
       ],
       "bondCE": {
-        "name": "The Dynamics of an Asteroid",
-        "effect": "Increases the NP damage of Evil allies by 25% when he is on the field."
+        "name": "8th-rank Headband of Resolution",
+        "effect": "Increases party's critical damage by 25% while she is on the field."
       }
     },
     {
       "name": "Sigurd",
-      "class": "Saber",
+      "servantClass": "Saber",
       "nP": {
         "name": "Bolverk Gram (Heaven's Wheel of Destruction)",
         "cardType": "Buster",
@@ -100,7 +100,7 @@
     },
     {
       "name": "Brynhildr",
-      "class": "Lancer",
+      "servantClass": "Lancer",
       "nP": {
         "name": "Brynhildr Romantia (Until Death Divide the Two Apart)",
         "cardType": "Buster",
@@ -125,7 +125,7 @@
     },
     {
       "name": "Scheherazade",
-      "class": "Caster",
+      "servantClass": "Caster",
       "nP": {
         "name": "Alf Layla wa-Layla (One Thousand and One Nights)",
         "cardType": "Arts",
@@ -148,7 +148,7 @@
     },
     {
       "name": "Osakabehime",
-      "class": "Assassin",
+      "servantClass": "Assassin",
       "nP": {
         "name": "Hakuro Jyou no Hyakki Hachitendou-sama (Lord Hachitendo of the White Egret Castle's Hundred Demons)",
         "cardType": "Quick",
